@@ -2,11 +2,11 @@
   "name": "workout-tracker-backend",
   "version": "1.0.0",
   "description": "Backend app for tracking workouts progress",
-  "main": "./dist/server.js",
+  "main": "./build/server.js",
   "scripts": {
     "test": "ts-node ./lib/server.ts",
-    "dev": "tsc && nodemon ./dist/server.js",
-    "prod": "tsc && nodemon ./dist/server.js"
+    "dev": "tsc && nodemon ./build/server.js",
+    "prod": "tsc && nodemon ./build/server.js"
   },
   "repository": {
     "type": "git",
