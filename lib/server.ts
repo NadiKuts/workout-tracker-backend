@@ -1,5 +1,9 @@
 import app from "./config/app";
-const PORT = 3030;
+import { Environment } from './environment';
+
+const env = new Environment();
+const PORT = env.getPort();
+
 app.listen(PORT, () => {
    console.log('Express server listening on port ' + PORT);
 })
